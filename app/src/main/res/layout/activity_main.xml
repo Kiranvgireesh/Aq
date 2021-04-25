@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+        <TextView
+            android:id="@+id/DOtextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DO" />
+
+        <EditText
+            android:id="@+id/editTextDo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:id="@+id/textViewPH"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PH" />
+
+        <EditText
+            android:id="@+id/editTextPH"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:id="@+id/textViewTp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TP" />
+
+        <EditText
+            android:id="@+id/editTextTp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:id="@+id/textViewTn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TN" />
+
+        <EditText
+            android:id="@+id/editTextTn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:id="@+id/textViewFc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fc" />
+
+        <EditText
+            android:id="@+id/editTextFc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:id="@+id/textViewAs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="As" />
+
+        <EditText
+            android:id="@+id/editTextAs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:id="@+id/textViewPb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pb" />
+
+        <EditText
+            android:id="@+id/editTextPb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:id="@+id/textViewHg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hg" />
+
+        <EditText
+            android:id="@+id/editTextHg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:id="@+id/textView2-4D"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2-4D" />
+
+        <EditText
+            android:id="@+id/editTextD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:id="@+id/textViewLindane"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lindane" />
+
+        <EditText
+            android:id="@+id/editTextLindane"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonFinish"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Finish" />
+
+            <Button
+                android:id="@+id/buttonNext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Next" />
+
+            <EditText
+                android:id="@+id/Result"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Name" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
